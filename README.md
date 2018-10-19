@@ -10,4 +10,4 @@
 ![alt text](https://github.com/hbau/StockClick/blob/master/images/NLP.png)
 ![alt text](https://github.com/hbau/StockClick/blob/master/images/SparkML.png)
 
-<img src="https://github.com/hbau/StockClick/blob/master/images/pipeline.png" width="1000" height="500">
+<img src="https://github.com/hbau/StockClick/blob/master/images/pipeline.png" width="1000" height="450">
