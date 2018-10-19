@@ -1,11 +1,10 @@
 ![GitHub Logo](/images/title.png)
-A NLP sentiment analysis platform for stock tweets on social media.  Provides calculated scores indicating a bearish or bullish sentiment trend.
 
-# Data Pipeline
-![GitHub Logo](/images/pipeline.png)
+* A NLP sentiment analysis platform for stock tweets on social media.  Provides calculated scores indicating a bearish or bullish sentiment trend.
 
-# Data Processing
-![GitHub Logo](/images/NLP.png)
-![GitHub Logo](/images/SparkML.png)
+## Data Pipeline
+![alt text](https://github.com/hbau/StockClick/blob/master/images/pipeline.png)
 
-
+## Data Processing
+![alt text](https://github.com/hbau/StockClick/blob/master/images/NLP.png)
+![alt text](https://github.com/hbau/StockClick/blob/master/images/SparkML.png)
