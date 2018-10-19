@@ -1,4 +1,4 @@
-<img src="https://github.com/hbau/StockClick/blob/master/images/title.png" width="1000" height="350">
+<img src="https://github.com/hbau/StockClick/blob/master/images/title.png" width="1000" height="380">
 
 * A NLP sentiment analysis platform for stock tweets on social media.  
 * Provides calculated scores indicating a bearish or bullish sentiment trend.
