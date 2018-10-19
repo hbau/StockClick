@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Stock Click</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/starter-template.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .node {
+          cursor: pointer;
+        }
+
+        .node:hover {
+          stroke: #000;
+          stroke-width: 1.5px;
+        }
+
+        .node--leaf {
+          fill: white;
+        }
+
+        .label {
+          font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+          text-anchor: middle;
+          text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+        }
+
+        .label,
+        .node--root,
+        .node--leaf {
+          pointer-events: none;
+        }
+
+        .navbar-header {
+            float: left;
+            padding: 15px;
+            text-align: center;
+            width: 100%;
+        }
+        .navbar-brand {float:none;}
+
+        .btn-warning {
+          background-color: #ffcd00
+        }
+
+        .btn-warning:hover {
+            border-color: black;
+            background-color: #ffcd00
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark navbar-fixed-top" style="background-color: #ffcd00;">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="color: #505050; font-size:30"><b>STOCK CLICK</b> : Social Media Stock Sentiment Trend Indicator using NLP</a>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+    <div class="starter-template">
+    {% block countries %}{% endblock %}
+    <!-- {% block emailop %}{% endblock %} -->
+    </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../static/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

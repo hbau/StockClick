@@ -1,0 +1,76 @@
+{% extends "header.html" %}
+{% block countries %}
+<p>
+  <img src="../static/globe.png" height="120" width="120">
+</p>
+<p style="font-weight:300; font-size:25px;">
+  Select which stock you are interested in :
+  <br><br/>
+</p>
+<body class="text-center">
+
+  <form action="/score", method = "POST">
+    <div class="form-group">
+      <label>Select a Stock:</label>
+      <select name="symbol">
+        <option value="AAPL">Apple</option>
+        <option value="AMD">AMD</option>
+        <option value="AMZN">Amazon</option>
+        <option value="BAC">Bank Of America</option>
+        <option value="BBY">Best Buy</option>
+        <option value="BIDU">Baidu</option>
+        <option value="CRM">Salesforce</option>
+        <option value="EBAY">Ebay</option>
+        <option value="FB">Facebook</option>
+        <option value="GOOGL">Google</option>
+        <option value="GS">Goldman Sachs</option>
+        <option value="IBM">IBM</option>
+        <option value="JPM">JPMorgan Chase</option>
+        <option value="MSFT">Microsoft</option>
+        <option value="NFLX">Netflix</option>
+        <option value="SINA">Sina</option>
+        <option value="TSLA">Tesla</option>
+      </select>
+
+    </div> 
+
+    <div class="form-group">
+      <label>Select Hour:</label>
+      <select name="hour">
+        <option value="0">Within 1 Hour</option>
+        <option value="1">Past 1 Hour</option>
+        <option value="2">Past 2 Hours</option>
+        <option value="3">Past 3 Hours</option>
+        <option value="5">Past 5 Hours</option>
+        <option value="8">Past 8 Hours</option>
+        <option value="10">Past 10 Hour</option>
+        <option value="12">Past 12 Hours</option>
+        <option value="15">Past 15 Hours</option>
+        <option value="20">Past 20 Hours</option>
+        <option value="24">Past 24 Hours</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Select Minute:</label>
+      <select name="minute">
+        <option value="0">Past 0 minutes</option>
+        <option value="5">Past 5 minutes</option>
+        <option value="10">Past 10 minutes</option>
+        <option value="15">Past 15 minutes</option>
+        <option value="20">Past 20 minutes</option>
+        <option value="25">Past 25 minutes</option>
+        <option value="30">Past 30 minutes</option>
+        <option value="40">Past 40 minutes</option>
+        <option value="50">Past 50 minutes</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">SUBMIT</button>
+    </div>
+
+  </form>
+</body>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "header.html" %}
+{% block countries %}
+<p>
+  <img src="../static/globe.png" height="120" width="120">
+</p>
+<p style="font-weight:300; font-size:25px;">
+  The sentiment score of the selected stock is :
+</p>
+
+{% if data %}
+<body class="text-center">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-12">
+          <p style="font-weight:300; font-size:25px;"><h1 >{{data[0]}}</h1></p>
+          <p style="font-weight:300; font-size:25px;"><h3 >Based on {{data[1]}} Stocktwits</h1> </p>
+          <br><br/>
+          <p style="font-weight:300; font-size:25px;"><h4 style= "color: grey;">Thank you for your inquiry! </h4><br>
+        </div>
+      </div>
+</div>
+{% endif %}
+</body>
+{% endblock %}
+
